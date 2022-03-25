@@ -1,5 +1,5 @@
 again = input("Welcome to badcalc, type Y or Yes to start, or N or No to exit(y/n) At any time you may exit")
-while again := "Y" or "Yes" or "y" or "yes":
+while again == "Y" or "Yes" or "y" or "yes":
     import math
     from tkinter import Y
 
