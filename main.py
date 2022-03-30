@@ -1,7 +1,6 @@
-again = input("Welcome to badcalc, type Y or Yes to start, or N or No to exit(y/n) At any time you may exit")
+again = input("Welcome to badcalc, type Y or Yes to start, or N or No to exit(y/n) At any time you may exit\n")
 while again == "Y" or "Yes" or "y" or "yes":
     import math
-    from tkinter import Y
 
     #defines all the numbers inputs and the equations are for a later update
     first_number = input("First Number:")
