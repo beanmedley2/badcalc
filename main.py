@@ -1,11 +1,17 @@
-again = input("Welcome to badcalc, type Y or Yes to start\n")
+
+again = input("Welcome to badcalc, type Y or Yes to start(only whole numbers for now sorry)\n")
 while again == "Y" or "Yes" or "y" or "yes":
     import math
     how_many_numbers = int(input("How many numbers do you want to calculate? 2, 3, 4, or 5\n"))
     if how_many_numbers == 2:
-        #defines all the numbers inputs and the equations are for a later update
         first_number = input("First Number:")
+        if first_number.isdigit == False:
+            print("Please enter a valid number")
+            first_number = input ("First Number:")
         second_number = input("Second Number:")
+        if second_number.isdigit() == False:
+            print("Please enter a valid number")
+            second_number = input ("Second Number:")
         (multi_ply): input = "multiply"
         (sub_tract): input = "subtract"
         (div_ide): input = "divide"
@@ -42,8 +48,17 @@ while again == "Y" or "Yes" or "y" or "yes":
         again
     elif how_many_numbers == 3:
         first_number = input("First Number:")
+        if first_number.isdigit() == False:
+            print("Please enter a valid number")
+            first_number = input("First Number:")
         second_number = input("Second Number:")
+        if second_number.isdigit() == False:
+            print("Please enter a valid number")
+            second_number = input("Second Number:")
         third_number= input ("Third Number:")
+        if third_number.isdigit() == False:
+            print("Please enter a valid number")
+            third_number = input("Third Number:")
         (multi_ply): input = "multiply"
         (sub_tract): input = "subtract"
         (div_ide): input = "divide"
@@ -86,9 +101,21 @@ while again == "Y" or "Yes" or "y" or "yes":
         again
     elif how_many_numbers == 4:
         first_number = input("First Number:")
+        if first_number.isdigit() == False:
+            print("Please enter a valid number")
+            first_number = input ("First Number:")    
         second_number = input("Second Number:")
+        if second_number.isdigit() == False:
+            print("Please enter a valid number")
+            second_number = input ("Second Number:")
         third_number= input ("Third Number:")
+        if third_number.isdigit == False:
+            print("Please enter a valid number")
+            third_number = input ("Third Number:")
         fourth_number= input ("Fourth Number:")
+        if fourth_number.isdigit() == False:
+            print("Please enter a valid number")
+            fourth_number = input ("Fourth Number:")
         (multi_ply): input = "multiply"
         (sub_tract): input = "subtract"
         (div_ide): input = "divide"
@@ -137,10 +164,25 @@ while again == "Y" or "Yes" or "y" or "yes":
         again    
     elif how_many_numbers == 5:
         first_number = input("First Number:")
+        if first_number.isdigit() == False:
+            print("Please enter a valid number")
+            first_number = input ("First Number:")
         second_number = input("Second Number:")
+        if second_number.isdigit() == False:
+            print("Please enter a valid number")
+            second_number = input ("Second Number:")
         third_number= input ("Third Number:")
+        if third_number.isdigit == False:
+            print("Please enter a valid number")
+            third_number = input ("Third Number:")
         fourth_number= input ("Fourth Number:")
+        if fourth_number.isdigit() == False:
+            print("Please enter a valid number")
+            fourth_number = input ("Fourth Number:")
         fifth_number= input ("Fifth Number:")
+        if fifth_number.isdigit() == False:
+            print("Please enter a valid number")
+            fifth_number = input ("Fifth Number:")
         (multi_ply): input = "multiply"
         (sub_tract): input = "subtract"
         (div_ide): input = "divide"
@@ -205,5 +247,4 @@ while again == "Y" or "Yes" or "y" or "yes":
 else:
     def exit():
         exit()
-
 
